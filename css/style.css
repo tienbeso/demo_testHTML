@@ -1,0 +1,60 @@
+.header{
+    height: auto;
+    background-color: pink;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.menu{
+
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+.nav-bar{
+    height: 100%;
+    width: 25%;
+    background-color: grey;
+}
+.content{
+    height: 100%;
+    width: 50%;
+}
+.recent-view{
+    width: 25%;
+    background-color: blanchedalmond;
+}
+.footer{
+
+    background-color: bisque;
+}
+.row-1{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.row-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.product1{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 30%;
+    padding: 10px;
+}
+.product1 img{
+    width: 100%;
+}
